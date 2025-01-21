@@ -13,11 +13,11 @@ Must be a token with repo scope.
 
 To dry run:
 
-    uv run migrate.py marshmallow-code/marshmallow --dry
+    uv run scripts/migrate_to_issue_types.py marshmallow-code/marshmallow --dry
 
 To migrate:
 
-    uv run migrate.py marshmallow-code/marshmallow
+    uv run scripts/migrate_to_issue_types.py marshmallow-code/marshmallow
 """
 import sys
 import httpx
